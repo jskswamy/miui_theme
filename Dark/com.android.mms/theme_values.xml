@@ -1,0 +1,87 @@
+﻿<MIUI_Theme_Values>
+    <!-- 会话标题栏称呼字体颜色 -->
+    <color name="conversation_title_primary_text_color">#ffffffff</color>
+    <!-- 会话标题栏计数，归属地字体颜色 -->
+    <color name="conversation_title_secondary_text_color">#80ffffff</color>
+    <!-- 会话标题栏计数，归属地字体阴影颜色 -->
+    <color name="conversation_title_text_shadow">#80000000</color>
+    <!-- 列表式会话上方（时间，状态等）提示字体颜色 -->
+    <color name="message_list_title_text_color">#80ffffff</color>
+    <!-- 列表式会话上方（时间，状态等）提示字体阴影颜色 -->
+    <color name="message_list_title_text_shadow">#e6000000</color>
+    <!-- 气泡式会话上方（时间）提示字体颜色 -->
+    <color name="message_bubble_title_text_color">#66ffffff</color>
+    <!-- 气泡式会话上方（时间）提示字体阴影颜色 -->
+    <color name="message_bubble_title_text_shadow">#80000000</color>
+    <!-- 气泡式会话内容字体颜色 -->
+    <color name="message_bubble_body_text_color">#ffffffff</color>
+    <!-- 气泡式会话内容字体阴影颜色 -->
+    <color name="message_bubble_body_text_shadow">#80000000</color>
+    <!-- 列表式会话收到方内容字体颜色 -->
+    <color name="message_list_in_body_text_color">#ffffffff</color>
+    <!-- 列表式会话收到方内容字体阴影颜色 -->
+    <color name="message_list_in_body_text_shadow">#e6000000</color>
+    <!-- 列表式会话收发出内容字体颜色 -->
+    <color name="message_list_out_body_text_color">#ff9d9d9d</color>
+    <!-- 列表式会话收发出内容字体阴影颜色 -->
+    <color name="message_list_out_body_text_color">#ff000000</color>
+    <!-- 会话内容中可提取项字体颜色 -->
+    <color name="message_body_link_color">#ff307ab3</color>
+    <!-- 手机报内容字体颜色 -->
+    <color name="message_body_mms_text_color">#cdffffff</color>
+    <!-- 手机报内容字体阴影颜色 -->
+    <color name="message_body_mms_text_color_shadow">#80000000</color>
+    <!-- 重发按钮字体颜色 -->
+    <color name="message_button_alert_text_color">#ffffffff</color>
+    <!-- 彩信下载中提示字体颜色 -->
+    <color name="message_body_notification_text_color">#80ffffff</color>
+
+    <!-- 定义会话展示风格：bubble为气泡式，list位列表式 -->
+    <string name="conversation_style">bubble</string>
+    <!-- 定义默认本机称呼 -->
+    <string name="messagelist_sender_self">我</string>
+
+    <!-- 会话列表项名称，消息计数字体设置（primary_text_dark） -->
+    <!-- 缺省，无焦点 -->
+    <color name="mi_bright_foreground_dark" package="android">#ffffffff</color>
+    <!-- 禁止 -->
+    <color name="mi_bright_foreground_dark_disabled" package="android">#80ffffff</color>
+    <!-- 按下，选择，焦点 -->
+    <color name="mi_bright_foreground_dark_inverse" package="android">#ffffffff</color>
+    <!-- 字体大小 -->
+    <dimen name="list_primary_text_size" package="android">18sp</dimen>
+
+    <!-- 会话列表项主题，时间字体设置（secondary_text_dark） -->
+    <!-- 缺省，无焦点 -->
+    <color name="mi_dim_foreground_dark" package="android">#ffbebebe</color>
+    <!-- 禁止 -->
+    <color name="mi_dim_foreground_dark_disabled" package="android">#80bebebe</color>
+    <!-- 按下，选择，焦点 -->
+    <color name="mi_dim_foreground_dark_inverse" package="android">#ff323232</color>
+    <!-- 禁止，选择，按下 -->
+    <color name="mi_dim_foreground_dark_inverse_disabled" package="android">#80323232</color>
+
+    <!-- 系统字体大小：（会话列表名称，计数）（会话标题主字体）-->
+    <dimen name="list_primary_text_size" package="android">18sp</dimen>
+    <!-- 系统字体大小：（会话列表项主题，时间字体设置）（会话标题副字体）-->
+    <dimen name="list_secondary_text_size" package="android">13sp</dimen>
+
+    <!-- 单人会话列表顶部空白高度-->
+    <dimen name="single_recipient_contact_panel_padding_height">63.3dip</dimen>
+    <!-- 单人会话头像大小-->
+    <dimen name="single_recipient_contact_panel_avatar_size">43.3dip</dimen>
+    <!-- 多人会话联系人栏高度-->
+    <dimen name="multi_recipient_contact_panel_height">50dip</dimen>
+    <!-- 多人会话联系人信息栏高度-->
+    <dimen name="multi_recipient_title_info_item_height">47dip</dimen>
+    <!-- 会话标题副字体大小-->
+    <dimen name="conversation_title_secondary_font_size">14sp</dimen>
+    <!-- 列表式会话项标（发送状态，时间，称呼）字体大小-->
+    <dimen name="message_list_title_font_size">14sp</dimen>
+    <!-- 气泡式会话时间字体大小-->
+    <dimen name="message_bubble_title_font_size">12sp</dimen>
+    <!-- 气泡式会话发送状态字体大小-->
+    <dimen name="message_deliver_font_size">10sp</dimen>
+    <!-- 系统字体大小：会话内容字体大小-->
+    <dimen name="normal_text_size" package="android">16sp</dimen>
+</MIUI_Theme_Values>

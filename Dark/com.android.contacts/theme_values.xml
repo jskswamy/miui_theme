@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   This file is used for those applications which wants to run in the
+   native android mode.
+-->
+<MIUI_Theme_Values>
+    <color name="call_button_text">#ffffffff</color>
+    <color name="call_button_text_shadow">#59000000</color>
+    <color name="open_dialer_button_text">#ffffffff</color>
+    <color name="open_dialer_button_text_shadow">#7f000000</color>
+    <color name="dailer_digits_text">#ffffffff</color>
+    <color name="dialer_digits_text_shadow">#59000000</color>
+    <color name="missed_call_text">#ff900000</color>
+</MIUI_Theme_Values>

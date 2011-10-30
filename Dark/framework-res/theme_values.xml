@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   This file is used for those applications which wants to run in the
+   native android mode.
+-->
+<MIUI_Theme_Values>
+    <!-- Global window background color -->
+    <color name="mi_screen_background_dark">#ff000000</color>
+    <color name="mi_screen_background_dark_transparent">#80000000</color>
+    <color name="mi_background_dark">#ff000000</color>
+    <color name="mi_bright_background_dark">#ff000000</color>
+    <!-- Global primary text color -->
+    <color name="mi_bright_foreground_dark">#ffffffff</color>
+    <color name="mi_bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="mi_bright_foreground_dark_inverse">#ff000000</color>
+    <!-- Global secondary text color -->
+    <color name="mi_dim_foreground_dark">#ffbebebe</color>
+    <color name="mi_dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="mi_dim_foreground_dark_inverse">#ff323232</color>
+    <color name="mi_dim_foreground_dark_inverse_disabled">#80323232</color>
+    <!-- Options Menu/Context Menu text color -->
+    <color name="mi_options_menu_text_normal">#ffffffff</color>
+    <color name="mi_options_menu_text_disabled">#80ffffff</color>
+    <color name="mi_options_menu_text_inverse">#ff000000</color>
+    <!-- Preference primary text color -->
+    <color name="mi_preference_primary">#ffffffff</color>
+    <color name="mi_preference_primary_disabled">#80ffffff</color>
+    <color name="mi_preference_primary_inverse">#ff000000</color>
+    <!-- Preference secondary text color -->
+    <color name="mi_preference_secondary">#ffbebebe</color>
+    <color name="mi_preference_secondary_disabled">#80bebebe</color>
+    <color name="mi_preference_secondary_inverse">#ff323232</color>
+    <!-- Popup dialog background color -->
+    <color name="dlg_bright_background_dark">#ff000000</color>
+    <!-- Popup dialog primary text color -->
+    <color name="dlg_bright_foreground_dark">#ffffffff</color>
+    <color name="dlg_bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="dlg_bright_foreground_dark_inverse">#ff000000</color>
+    <!-- Popup dialog secondary text color -->
+    <color name="dlg_dim_foreground_dark">#ffbebebe</color>
+    <color name="dlg_dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dlg_dim_foreground_dark_inverse">#ff323232</color>
+    <color name="dlg_dim_foreground_dark_inverse_disabled">#80323232</color>
+    <!-- Button text color/shadow/shadow offset -->
+    <color name="button_text_color">#ffffffff</color>
+    <color name="button_text_color_disabled">#33ffffff</color>
+    <color name="button_text_shadow">#00000000</color>
+    <integer name="button_text_shadow_dy">-1</integer>
+    <!-- ExpandableListView header text color-->
+    <color name="expandlistview_header_text_color">#ffffffff</color>
+    <color name="expandlistview_header_shadow_color">#00000000</color>
+    <integer name="expandlistview_header_shadow_dy">-1</integer>
+    <color name="status_bar_event_title_normal">#ffffffff</color>
+    <color name="status_bar_event_title_inverse">#ff000000</color>
+    <color name="status_bar_event_content_normal">#66ffffff</color>
+    <color name="status_bar_event_content_inverse">#66000000</color>
+</MIUI_Theme_Values>
